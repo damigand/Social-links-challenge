@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: rgb(51, 51, 51);
+    --grey-800: rgb(31, 31, 31);
+    --grey-900: rgb(20, 20, 20);
+
+    --spacing-44: 44px;
+    --spacing-24: 24px;
+    --spacing-16: 16px;
+    --spacing-12: 12px;
+    --spacing-8: 8px;
+
+    --font-one: 700 24px 'Inter', sans;
+    --font-two: 600 16px 'Inter', sans;
+    --font-three: 400 14px 'Inter', sans;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--grey-900);
+    color: var(--white);
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+}
+
+.card {
+    background-color: var(--grey-800);
+    width: 100%;
+    height: 100%;
+    max-width: 385px;
+    max-height: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: var(--spacing-44);
+    gap: var(--spacing-24);
+    border-radius: 12px;
+}
+
+h3 {
+    font: var(--font-one);
+}
+
+.location {
+    color: var(--green);
+    font: var(--font-two);
+}
+
+.bio {
+    margin-top: var(--spacing-16);
+    font: var(--font-three);
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+.links {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 100%;
+    background-color: var(--grey-700);
+    height: 44px;
+    cursor: pointer;
+}
+
+.link:hover {
+    background-color: var(--green);
+}
+
+.link:hover a {
+    color: var(--grey-900);
+}
+
+.link a {
+    text-decoration: none;
+    color: var(--white);
+    font: var(--font-two);
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

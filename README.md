@@ -25,8 +25,8 @@ Mentor challenges help you improve your coding skills by building realistic proj
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/social-links-solution-YNZOeBBoUf)
+-   Live Site URL: [Netlify - damigand](https://social-links-challenge-damigand.netlify.app/)
 
 ## My process
 
